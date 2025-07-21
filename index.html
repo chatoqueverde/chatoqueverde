@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Anamnese - Plantas Medicinais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f5fff7;
+    }
+    h1 {
+      color: #2d6a4f;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+    .whatsapp-icon {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    form {
+      margin-top: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 12px 20px;
+      background-color: #2d6a4f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #22543d;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulário de Anamnese - Tratamento com Plantas Medicinais</h1>
+  
+  <p><strong>WhatsApp de contato:</strong></p>
+  <a class="whatsapp-button"
+     href="https://wa.me/5582996965441?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20o%20tratamento%20com%20plantas%20medicinais."
+     target="_blank">
+    <img class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20" height="20">
+    Fale Conosco no WhatsApp
+  </a>
+
+  <hr>
+
+  <form action="mailto:jonasmartiniano@yahoo.com.br" method="post" enctype="text/plain">
+    <label>Nome Completo:
+      <input type="text" name="Nome Completo" required>
+    </label>
+
+    <label>Idade:
+      <input type="number" name="Idade" min="0" required>
+    </label>
+
+    <label>Telefone / WhatsApp:
+      <input type="tel" name="Telefone">
+    </label>
+
+    <label>E-mail:
+      <input type="email" name="E-mail">
+    </label>
+
+    <label>Quais medicamentos você faz uso atualmente? (Nome, dosagem e frequência)
+      <textarea name="Medicamentos" rows="4"></textarea>
+    </label>
+
+    <label>Quais plantas medicinais você utiliza? (Nome popular, forma de uso, frequência)
+      <textarea name="Plantas Medicinais" rows="4"></textarea>
+    </label>
+
+    <label>Possui alergias conhecidas? Quais?
+      <textarea name="Alergias" rows="2"></textarea>
+    </label>
+
+    <label>Já teve reações adversas misturando medicamentos com plantas medicinais?
+      <textarea name="Reações Adversas" rows="3"></textarea>
+    </label>
+
+    <label>Qual seu objetivo principal com o uso de plantas medicinais?
+      <textarea name="Objetivo" rows="3"></textarea>
+    </label>
+
+    <label>Possui alguma condição de saúde crônica? (Ex.: diabetes, hipertensão, doenças autoimunes)
+      <textarea name="Condição Crônica" rows="3"></textarea>
+    </label>
+
+    <label>Observações adicionais:
+      <textarea name="Observações" rows="4"></textarea>
+    </label>
+
+    <button type="submit">Enviar Formulário</button>
+  </form>
+</body>
+</html>
